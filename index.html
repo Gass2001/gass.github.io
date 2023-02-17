@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <! –– to make it responsive ––>
+    <title>PingWeb</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script>
+
+
+    </script>
+  </head>
+  <body>
+      <section class="header">
+        <nav class="nv">
+          <a href="index.html"><img src="images/transparent.gif" alt="logo"></a>
+          <div class="liens" id="navlinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+              <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">COURSES</a></li>
+                <li><a href="#">CONTACT</a></li>
+              </ul>
+          </div>
+          <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>Welcome to PingWeb</h1>
+            <p>Our mission is to empower all newbie frontend developers to achieve maximum efficiency and effectiveness by enabling and building a first-class web experience. We offer a combination of HTML5, CSS3 and JavaScript courses which are simple, yet detailed.</p>
+            <a href="#" class="btn">Explore our courses</a>
+        </div>
+
+      </section>
+
+      <section class="course">
+          <h1>Courses we offer</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+          <div class="row">
+            <div class="course-col" id="html1">
+                    <h3>HTML5</h3>
+                    <p>HTML stands for Hyper Text Markup Language, which is the most widely used language on Web to develop web pages. HTML language.<br>HTML is a MUST for students and working professionals to become a great Software Engineer specially when they are working in Web Development Domain.</p>
+                    <br><br><br>
+                    <a href="#" class="btn1" id="html">HTML5 courses</a>
+            </div>
+            <div class="course-col">
+                    <h3>CSS3</h3>
+                    <p>CSS is the key presentational technology that is used in website design.<br>CSS is a standard style sheet language used for describing the presentation (i.e. the layout and formatting) of the web pages.<br>CSS3 is the latest version of the CSS specification. CSS3 adds several new styling features and improvements to enhance the web presentation capabilities.</p>
+                    <br>
+                    <a href="#" class="btn1" id="css">CSS3 courses</a>
+            </div>
+            <div class="course-col">
+                    <h3>JavaScript</h3>
+                    <p>JavaScript is a fun and flexible programming language. It’s one of the core technologies of web development and can be used on both the front-end and the back-end. <br>JavaScript is a scripting language that enables you to create dynamically updating content, control multimedia, animate images, and pretty much everything else. </p>
+                    <br><br>
+                    <a href="" class="btn1" id="js" onclick="afficher()">JavaScript courses</a>
+            </div>
+          </div>
+
+      </section>
+
+
+
+      <section class="testimonials">
+        <h1>What our students think</h1>
+        <p><br>PingWeb has helped several students around the world to develop their frontend skills. </p>
+        <div class="row">
+          <div class="test-col">
+            <img src="images/user1.jpg" alt="user1">
+            <div class="text">
+                <p>I really like PingWeb,it helped me a lot to start off learning web development as a complete beginner,as it is also easy to use... Thank you for this great platform ♥."</p>
+                <h3>David Yeo</h3>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+            </div>
+          </div>
+
+          <div class="test-col">
+            <img src="images/user3.jpg" alt="user1">
+            <div class="text">
+                <p>I recently started using PingWeb and it's surprising how fast I'm improving. It's beginner friendly and super easy to navigate. It is definitely helping me add some projects into my portfolio."</p>
+                <h3>Eric Jhonson</h3>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+            </div>
+          </div>
+
+          <div class="test-col">
+            <img src="images/user2.jpg" alt="user1">
+            <div>
+                <p>It's impressive how simple and informative these courses are! I recently signed up for the CSS3 course and I'm already improving so fast. I totally recommend it for absolute beginners.</p>
+                <h3>Jhon brighton</h3>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+
+          </div>
+
+        </div>
+
+      </section>
+
+
+
+      <footer>
+        <hr>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3235.4881799073455!2d10.636119415614468!3d35.81249643036831!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1302756a7452317b%3A0xfe8bdcb107b21c72!2sHigher%20Institute%20of%20Applied%20Science%20and%20Technology%20of%20Sousse!5e0!3m2!1sen!2stn!4v1650204844270!5m2!1sen!2stn" width="100%" height="320" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <div class="main-content">
+        <div class="left box">
+          <h2>About us</h2>
+          <div class="content">
+            <p>Our mission is to empower all newbie frontend developers to achieve maximum efficiency and effectiveness by enabling and building a first-class web experience. We offer a combination of HTML5, CSS3 and JavaScript courses which are simple, yet detailed.</p>
+            <div class="social">
+              <a href=""><span class="fa fa-facebook-f"></span></a>
+              <a href="#"><span class="fa fa-twitter"></span></a>
+              <a href=""><span class="fa fa-instagram"></span></a>
+              <a href=""><span class="fa fa-youtube"></span></a>
+            </div>
+          </div>
+        </div>
+        <div class="center box">
+          <h2>Address</h2>
+          <div class="content">
+            <div class="place">
+              <span class="fa fa-map-marker"></span>
+              <span class="text">Cité Taffela, Sousse 4003</span>
+            </div>
+            <div class="phone">
+              <i class="fa fa-mobile" aria-hidden="true"></i>
+              <span class="text">+216-92228967</span>
+            </div>
+            <div class="email">
+              <span class="fa fa-envelope"></span>
+              <span class="text">benarabs123@gmail.com</span>
+            </div>
+          </div>
+        </div>
+        <div class="right box">
+          <h2>Contact us</h2>
+          <div class="content">
+            <form action="#">
+              <div class="email">
+                <div class="text">Email *</div>
+                <input type="email" required>
+              </div>
+              <div class="msg">
+                <div class="text">Message *</div>
+                <textarea rows="2" cols="25" required></textarea>
+              </div>
+              <div class="btn1">
+                <button type="submit">Send</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+
+      <script>
+
+
+
+
+        var navLinks = document.getElementById("navlinks");
+
+        function showMenu(){
+          navLinks.style.right="0";
+        }
+
+        function hideMenu(){
+          navLinks.style.right="-300px";
+        }
+
+        /*invisible on scroll*/
+        const navbar = document.querySelector('.nv');
+        window.onscroll = () => {
+    if (window.scrollY > 300) {
+        navbar.classList.add('nav-active');
+    } else {
+        navbar.classList.remove('nav-active');
+    }
+};
+
+      function clear()
+      {
+        var t=document.getElementById("tbox");
+        t.value='';
+      }
+
+
+      </script>
+  </body>
+</html>
